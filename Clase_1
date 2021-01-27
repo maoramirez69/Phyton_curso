@@ -1,0 +1,33 @@
+#EJERICIO 1
+print("---------------------- Ejercicio 1 ----------------------")
+print("Por favor ingresa una frase")
+x=input()
+print("La frase es " + x)
+
+print("---------------------- Ejercicio 2 ----------------------")
+print("Por favor ingresa tu nombre")
+nombre=input()
+print("Hola ¡" + nombre + "!")
+
+print("---------------------- Ejercicio 3 ----------------------")
+print("Por favor ingresa el primer número")
+numero_1=input()
+print("Por favor ingresa el segundo número")
+numero_2=input()
+suma=int(numero_1) + int(numero_2)
+print("La suma es " + str(suma))
+
+print("---------------------- Ejercicio 4 ----------------------")
+print("Ingresa el año de tu nacimiento:")
+anio_nacimiento=input()
+anio_actual = 2021
+edad_1=int(anio_actual)-int(anio_nacimiento)
+print("Tu edad actual es: " + str(edad_1))
+
+print("---------------------- Ejercicio 5 ----------------------")
+print("Ingresa la base del rectángulo: ")
+base=input()
+print("Ingresa la altura del rectángulo :")
+altura=input()
+area=int(base)*int(altura)
+print("El área del rectángulo es " + str(area))
